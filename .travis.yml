@@ -7,3 +7,7 @@ python:
   - 3.6
 
 script: py.test
+
+notifications:
+  email: false
+
