@@ -2,7 +2,7 @@ language: python
 
 dist: 
   - trusty
-  - osx
+#  - osx
 
 python:
   - 2.7
