@@ -12,7 +12,9 @@ env:
 
 install: pip install numpy==$NUMPY_VERSION
 
-script: py.test
+script:
+  - python -c "import numpy; print (numpy.__VERSION__)"
+  - py.test
 
 notifications:
   email: false
