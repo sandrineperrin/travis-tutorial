@@ -2,7 +2,7 @@ language: python
 
 dist: 
   - trusty
-  - osx
+#  - osx
 
 cache: pip
 
