@@ -30,6 +30,6 @@ script:
   - python -c "import numpy; print (numpy.__version__)"
   - py.test
 
-notifications:
-  email: false
+# notifications:
+#  email: false
 
